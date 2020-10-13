@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  httpd:
+    image: ghcr.io/aulasoftwarelibre/hacktoberfest-2020:latest
+    build:
+      context: .
+    ports:
+      - 8000:80
