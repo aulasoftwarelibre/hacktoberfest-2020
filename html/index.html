@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>HacktoberWeek - Aula de Software Libre</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/img/pinguino.jpeg" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -86,7 +86,12 @@
 
         </div>
     </header>
-
+    <div style="height: 155px; overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 240.40,28.13 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: rgb(6, 0, 128);">
+            </path>
+        </svg>
+    </div>
 
 
 
@@ -109,15 +114,17 @@
                         <img src="assets/img/folio.png" width="100" height="100"/>
                     </span>
                     <h4 class="my-3">Descripción</h4>
-                    <p class="text-muted">En el Aula de Software Libre promovemos el uso del Software Libre dentro de tanto la universidad como a la sociedad en general. </p>
+                    <p class="text-muted">En el Aula de Software Libre promovemos el uso del Software Libre dentro de tanto la universidad como a la sociedad en general.</p>
+
+                    <p class="text-muted">En concreto, en la HacktoberWeek os presentaremos una serie de talleres variados orientados a que aprendáis lo máximo posible sobre herramientas fundamentales en el mundo de la informática </p>
                 </div>
 
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <img src="assets/img/diana.svg" width="100" height="100"/>
+                        <img src="assets/img/diana.png" width="150" height="150"/>
                         </span>
                     <h4 class="my-3">Objetivos</h4>
-                    <p class="text-muted">Mediante podcast, charla y demás trataremos temas tan interesantes como latex, python y alguna que otra sorpresa. ¡No te lo pierdas!</p>
+                    <p class="text-muted">Mediante podcast, charla y demás trataremos temas tan interesantes como latex, react, python y alguna que otra sorpresa. ¡No te lo pierdas!</p>
                     <br>
                 </div>
 
@@ -136,14 +143,6 @@
 
             </div>
             <br>
-
-            <!--     
-            <div class="rowbutton text-center">
-                <a href="https://www.uco.es/aulasoftwarelibre/" class="btn btn-outline-secondary btn-block">Conócenos</a>
-            </div>
-            -->
-
-
         </div>
 
     </section>
@@ -160,11 +159,20 @@
 
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Agenda</h2>
-                <br>
                 <h3 class="section-subheading text-muted">Desarrollo de las actividades de la semana</h3>
-                <br>
             </div>
 
+            <div class="text-center">
+                <p class="text-muted">Durante la semana del 26 de octubre desarrollaremos un taller por día.</p>
+                <p class="text-muted">Puedes acceder a estos talleres y otros muchos más accediendo a nuestro portal
+                    <a href="https://ideas.aulasoftwarelibre.uco.es/idea">
+                        IDEAS
+                    </a> o pulsando directamente en los talleres, los cuales se presentan a continuación.
+                </p>
+
+            </div>
+
+            <br>
             <ul class="timeline">
 
                 <li>
@@ -173,28 +181,43 @@
 
                         <div class="timeline-heading">
                             <h4>Latex</h4>
-                            <h4 class="subheading">Lunes 26 Octubre Hora</h4>
+                            <h4 class="subheading">Lunes 26 Octubre</h4>
+
+                            <h4 class="subheading">16:00-18:00</h4>
+
                         </div>
 
                         <div class="timeline-body">
-                            <p class="text-muted">Descripción evento 1</p>
+                            <p class="text-muted">Latex es un sistema de sotfware libre de composición de textos. Es muy usado en la creación de artículos y libros científicos, ya que permite alcanzar una gran calidad de escritura.</p>
                         </div>
+                        <br>
+                        <a href="https://ideas.aulasoftwarelibre.uco.es/idea/taller-de-latex" class="btn btn-outline-secondary btn-block">Únete al taller</a>
+
 
                     </div>
                 </li>
 
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/mkdocs.png" alt="" /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/react.png" alt="" /></div>
                     <div class="timeline-panel">
 
                         <div class="timeline-heading">
-                            <h4>DevOps</h4>
-                            <h4 class="subheading">Martes 27 Octubre Hora</h4>
+                            <h4>Taller de React con Typescript</h4>
+                            <h4 class="subheading">Martes 27 Octubre</h4>
+                            <h4 class="subheading">16:00-18:00</h4>
+
+
                         </div>
 
                         <div class="timeline-body">
-                            <p class="text-muted">Descripción evento 2</p>
+                            <p class="text-muted">React es esencial en el mundo del desarrollo Frontend. Desde su nacimiento ha ido adaptando e incorporando nuevas caracterísiticas a los gustos y necesidades de los desarrolladores. En este taller presentamos algunas de las
+                                herramientas más frecuentes en react como Redux, Hooks y Saga.
+                            </p>
                         </div>
+
+                        <br>
+                        <a href="https://ideas.aulasoftwarelibre.uco.es/idea/taller-de-react-con-typescript" class="btn btn-outline-secondary btn-block">Únete al taller</a>
+
 
                     </div>
                 </li>
@@ -205,12 +228,19 @@
 
                         <div class="timeline-heading">
                             <h4>Python</h4>
-                            <h4 class="subheading">Miércoles 28 Octubre Hora</h4>
+                            <h4 class="subheading">Miércoles 28 Octubre </h4>
+                            <h4 class="subheading">16:00-18:00</h4>
+
                         </div>
 
                         <div class="timeline-body">
-                            <p class="text-muted">Descripción evento 3</p>
+                            <p class="text-muted">En el mundo de la programación, Python es fundamental. Un lenguaje interpretado, dinámico, multiplataforma, con una filosofía basada en la legibilidad de su código; sin lugar a dudas uno de los lenguajes más importantes a nivel
+                                global. </p>
                         </div>
+
+                        <br>
+                        <a href="https://ideas.aulasoftwarelibre.uco.es/idea/introduccion-a-python-1" class="btn btn-outline-secondary btn-block">Únete al taller</a>
+
 
                     </div>
                 </li>
@@ -220,13 +250,19 @@
                     <div class="timeline-panel">
 
                         <div class="timeline-heading">
-                            <h4>Kata</h4>
-                            <h4 class="subheading">Jueves 29 Octubre Hora</h4>
+                            <h4>CodeKata</h4>
+                            <h4 class="subheading">Jueves 29 Octubre</h4>
+                            <h4 class="subheading">16:00-18:00</h4>
+
                         </div>
 
                         <div class="timeline-body">
-                            <p class="text-muted">Descripción evento 4</p>
+                            <p class="text-muted">Contribuiremos en directo a un repositorio de software libre haciendo un commit entre todos con nuestra aportación. </p>
                         </div>
+
+                        <br>
+                        <a href="https://ideas.aulasoftwarelibre.uco.es/idea/codekata-hactoberweek" class="btn btn-outline-secondary btn-block">Únete al taller</a>
+
 
                     </div>
                 </li>
@@ -237,31 +273,53 @@
 
                         <div class="timeline-heading">
                             <h4>Podcast</h4>
-                            <h4 class="subheading">Viernes 30 Octubre Hora</h4>
+                            <h4 class="subheading">Viernes 30 Octubre</h4>
+                            <h4 class="subheading">16:00 18:00</h4>
+
                         </div>
 
                         <div class="timeline-body">
-                            <p class="text-muted">Descripción evento 5</p>
+                            <p class="text-muted">Como evento final, presentaremos en directo una serie de podcast que realizaremos a lo largo de las próximas semanas. ¡No te lo pierdas!</p>
+                        </div>
+
+                        <br>
+                        <a href="https://youtu.be/3-iyxc01Mbs" class="btn btn-outline-secondary btn-block">Únete al directo</a>
+
+
+                    </div>
+                </li>
+
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/youtube.png" alt="" /></div>
+                    <div class="timeline-panel">
+
+
+
+                        <div class="timeline-body">
+                            <div class="timeline-heading">
+                                <h4>Youtube</h4>
+                            </div>
+                            <p class="text-muted">Todos los talleres serán resubidos a nuestro canal de YouTube. Para acceder, pulsa
+                                <a href="https://www.youtube.com/channel/UCfWiR5j-cbKcGTi9faK8P6w">
+                                    aquí
+                                </a> </p>
                         </div>
 
                     </div>
                 </li>
 
-                <!-- <li class="timeline-inverted">
-                    <div class="timeline-image">
-
-                         <h4>
-                            ¡Se parte
-                            <br /> de nuestra
-                            <br /> aventura!
-                        </h4> 
-
-                    </div>
-                </li> -->
-
             </ul>
 
         </div>
+
+        <div class="container">
+            <div class="text-center">
+                <br>
+                <h2 class="section-subheading text-muted">¡No olvides suscribirte para estar al tanto de todas nuestras actividades!</h2>
+            </div>
+        </div>
+
+
     </section>
 
     <hr class="style13">
@@ -292,7 +350,7 @@
                         </a>
 
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Pablo Rodríguez Guillén</div>
+                            <div class="portfolio-caption-heading">Pablo Rodríguez</div>
                             <div class="portfolio-caption-subheading text-muted">Estudiante Ingeniería Informática</div>
                         </div>
 
@@ -306,12 +364,12 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/sergio.jpeg" height="355" width="355" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/guille.jpeg" height="355" width="355" alt="" />
                         </a>
 
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Sergio Gómez</div>
-                            <div class="portfolio-caption-subheading text-muted">Coordinador Aula Software Libre</div>
+                            <div class="portfolio-caption-heading">José Fernández y Guillermo Cosano</div>
+                            <div class="portfolio-caption-subheading text-muted">Estudiantes Ingeniería Informática</div>
                         </div>
 
                     </div>
@@ -328,7 +386,7 @@
                         </a>
 
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Marcos Rivera Gavilán</div>
+                            <div class="portfolio-caption-heading">Marcos Rivera</div>
                             <div class="portfolio-caption-subheading text-muted">Estudiante Ingeniería Informática</div>
                         </div>
 
@@ -353,9 +411,9 @@
 
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Equipo</h2>
-                <br>
-                <h3 class="section-subheading text-muted">Todo el equipo sin el cual nada de esto sería posible</h3>
-                <br>
+
+                <h3 class="section-subheading text-muted">Todo el equipo sin el cual el evento no hubiera sido posible</h3>
+
             </div>
 
             <div class="row">
@@ -442,34 +500,11 @@
                     <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/AulaSoftwareLibre/"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/aulasoftwarelibre/"><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/channel/UCfWiR5j-cbKcGTi9faK8P6w"><i class="fab fa-youtube"></i></a>
-
-
-
                 </div>
-
-
-
-
-
             </div>
-
     </section>
 
 
-
-    <hr class="style13">
-
-
-
-
-    <!-- Footer-->
-    <footer class="footer py-4" class="page-section">
-        <div class="container">
-            <div class="col-lg-8 mx-auto text-center">
-                Copyright © HacktoberWeek 2020
-            </div>
-        </div>
-    </footer>
 
 
 
@@ -477,7 +512,7 @@
 
     <div style="height: 150px; overflow: hidden;">
         <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"> 
-                    <path d="M0.00,49.98 C126.69,121.88 347.35,-34.03 511.57,60.69 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(0, 217, 255);"></path>
+                    <path d="M0.00,49.98 C126.69,121.88 347.35,-34.03 511.57,60.69 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(6, 0, 128);"></path>
             </svg>
     </div>
 
@@ -496,18 +531,21 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <div class="modal-body">
-                                        <h2 class="text-uppercase">Pablo Rodríguez Guillén</h2>
+                                        <h2 class="text-uppercase">Pablo</h2>
                                         <p class="item-intro text-muted">Estudiante Ingeniería Informática</p>
+
+                                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/Pablorg99"><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/pablorg99/"><i class="fab fa-linkedin"></i></a>
+                                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/Pablorg99/"><i class="fab fa-github"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <br>
-                        <br>
-                        <p>Marcos es un estudiante de segundo año de Ingeniería Informática de la UCO. Además de colaborar en la planificación de la HacktoberWeek, nos ofrecerá una maravillosa introducción a un lenguaje de programación tan fundamental como
-                            es Python.</p>
+
+                        <p>Pablo es un estudiante de cuarto año de Ingeniería Informática de la UCO. Como componente y encargado de Relaciones Externas del Aula de Software Libre, será el encargado de ofrecernos una presentación sobre Latex, introduciéndonos
+                            en el software mostrando las características más importantes de este.</p>
 
                     </div>
                     <div class="col-md-4">
@@ -522,7 +560,7 @@
 
 
 
-    <!-- Sergio-->
+    <!-- Guille y Jose-->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -533,23 +571,26 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <div class="modal-body">
-                                        <h2 class="text-uppercase">Sergio Gómez</h2>
-                                        <p class="item-intro text-muted">Coordinador Aula Software Libre</p>
+                                        <h2 class="text-uppercase">José y Guille</h2>
+                                        <p class="item-intro text-muted">Estudiantes Ingeniería Informática</p>
+                                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/josefrnandezz"><i class="fab fa-github"></i></a>
+                                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/i62cogag"><i class="fab fa-github"></i></a>
+
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <br>
-                        <br>
-                        <p>Marcos es un estudiante de segundo año de Ingeniería Informática de la UCO. Además de colaborar en la planificación de la HacktoberWeek, nos ofrecerá una maravillosa introducción a un lenguaje de programación tan fundamental como
-                            es Python.</p>
+
+                        <p>José (izquierda) y Guille (derecha) son ambos estudiantes de ingeniería informática. Siendo encargado de relaciones internacionales y secretario del Aula de Software Libre, respectivamente, serán los encargados de presentarnos
+                            el taller de React. </p>
 
                     </div>
                     <div class="col-md-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/portfolio/sergio.jpeg" alt="" />
+                            <img class="mx-auto rounded-circle" src="assets/img/portfolio/guille.jpeg" alt="" />
                         </div>
 
                     </div>
@@ -571,18 +612,20 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <div class="modal-body">
-                                        <h2 class="text-uppercase">Marcos Rivera Gavilán</h2>
+                                        <h2 class="text-uppercase">Marcos</h2>
                                         <p class="item-intro text-muted">Estudiante Ingeniería Informática</p>
+                                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/MarcosRigal01"><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/marcosrigal/"><i class="fab fa-instagram"></i></a>
+                                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/MarcosRigal"><i class="fab fa-github"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <br>
-                        <br>
+
                         <p>Marcos es un estudiante de segundo año de Ingeniería Informática de la UCO. Además de colaborar en la planificación de la HacktoberWeek, nos ofrecerá una maravillosa introducción a un lenguaje de programación tan fundamental como
-                            es Python.</p>
+                            es Python, mostráńdonos las funcionalidades y conceptos básicos.</p>
 
                     </div>
                     <div class="col-md-4">
