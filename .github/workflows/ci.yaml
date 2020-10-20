@@ -7,7 +7,7 @@ on:
 jobs:
     images:
         runs-on: ubuntu-latest
-        if: github.event_name == 'push' && github.repository == 'aulasoftwarelibre/idea' && github.ref == 'refs/heads/master'
+        if: github.event_name == 'push' && github.repository == 'aulasoftwarelibre/hacktoberfest-2020' && github.ref == 'refs/heads/master'
         steps:
             -
                 name: Checkout
